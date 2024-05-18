@@ -1,0 +1,119 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #223a5f;
+  background-size: cover;
+  height: 100vh;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 60%;
+  border-radius: 7px;
+  border: solid #ffffff 2px;
+}
+.main-heaing {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.score-container {
+  padding: 0px;
+  margin: 5px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+}
+.score-title {
+  color: #223a5f;
+  font-size: 24px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin: 0px;
+}
+.score {
+  color: #223a5f;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 0px;
+}
+.game-choice-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.game-result-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.game-result-img {
+  width: 180px;
+  height: 180px;
+}
+.game-result-choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.game-result-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: center;
+  max-width: 250px;
+}
+.game-result {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.play-again-btn {
+  color: #223a5f;
+  font-size: 20px;
+  font-family: 'Sans Beerif';
+  font-weight: 500;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 120px;
+}
+.rule-btn {
+  color: #223a5f;
+  font-size: 20px;
+  font-family: 'Sans Beerif';
+  font-weight: 500;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 70px;
+  align-self: flex-end;
+}
